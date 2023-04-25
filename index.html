@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link href=" https://fonts.cdnfonts.com/css/wild-hazelnut " rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+</head>
+<!-- menu/title -->
+
+<body>
+    <div class="content">
+        <header>
+            <nav>
+                <div class="menu-content">
+                    <div class="logo">
+                        <h2><a href="#home-content">Receitas</a></h2>
+                    </div>
+                    <ul>
+                        <li><a href="#home-content">home</a></li>
+                        <li><a href="#recipes">receitas</a></li>
+                        <li><a href="#videos">vídeos</a></li>
+                        <li><a href="#contact">contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- menu/title -->
+        <!-- HOME SECTION    -->
+        <section id="home-content">
+            <div class="bg-wrap">
+                <img class="bg" src="./img/bg.avif" alt="background-image">
+                <h3 class="title">ari receitas</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eos expedita deleniti. Ab
+                    eius quase consequatur autem doloremque unde sit accusamus
+                    orem ipsum dolor sit amet consectetur adipisicing elit. Ea eos expedita deleniti. Ab eius quase und
+                    facilis a necessitatibus. Voluptas commodi ad
+                    voluptatum pariatur explicabo!</p>
+                    <ion-icon class="float-icon" name="pizza"></ion-icon>
+            </div>
+        </section>
+        <!-- HOME SECTION    -->
+        <!-- RECIPIES SECTION    -->
+        <div id="recipes">
+            <div class="bgwrap">
+                <img class="bg" src="./img/bg-2.jpg" alt="background-image">
+                <h3 class="title">receitas</h3>
+                <h3 class="sub-title">carne moída com molho</h3>
+                <div class="recipes-content">
+                    <div class="box-content">
+                        <img src="./img/img2.jpg" alt="foto do prato">
+                        <div class="info">
+                            <p><ion-icon name="people"></ion-icon>5 pessoas |</p>
+                            <p><ion-icon name="hourglass"></ion-icon>35 min |</p>
+                            <p><ion-icon name="analytics"></ion-icon>facil |</p>
+                        </div>
+                        <audio class="audio" controls = controls>
+                            <source src="./audio/voice.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="recipe-content">
+                        <div class="ingredient">
+                            <img src="./img/ingredients.png" alt="ingredients icon">
+                            <ul>
+                                <li>1 colher (sopa) de óleo</li>
+                                <li>1 cebola média picada</li>
+                                <li>1 dente de alho picado</li>
+                                <li>400g de carne moida</li>
+                                <li>1 sachê de temperos de ervas</li>
+                                <li>1 pitada de sal</li>
+                                <li>2 tomates, sem sementes, picados</li>
+                                <li>2 colheres (sopa) de azeitonas verdes picadas</li>
+                                <li>1 ovo cozido picado</li>
+                            </ul>
+                        </div>
+                        <div class="how-to">
+                            <img src="./img/how-to.png" alt="how to icon">
+                            <ol>
+                                <li>1- Em uma panela média, aqueça o óleo e refogue a cebola e o alho;</li>
+                                <li>2- Junte a carne e refogue por cerca de 10 minutos ou até que seque todo o líquido;</li>
+                                <li>3- Use um garfo para ir amassando os grumos que forem se formando para "soltar" a carne;</li>
+                                <li>4- Com a carne já sequinha, acrescente o sachê de temperos, o sal e os tomates e refogue até murchar;</li>
+                                <li>5- Junte as azeitonas, o vovo e misture delicadamente. Sirva.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="videos">
+            <h3 class="title">vídeos</h3>
+            <h3 class="sub-title">veja o vídeo da receita</h3>
+            <div class="box-video">
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/mBYarNNIFyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- RECIPIES SECTION    -->
+        <div id="contact">
+        <h3 class="title">contato</h3>
+        <div class="contact-content">
+            <h4 class="sub-title">preencha o formulário e deixe uma mensagem</h4>
+            <form action="post">
+                <label for="name"><ion-icon name="person"></ion-icon></label>
+                <input type="text" required placeholder="seu nome">
+                <label for="sobrenome"><ion-icon name="person"></ion-icon></label>
+                <input type="text" required placeholder="seu sobrenome">
+                <label for="email"><ion-icon name="mail"></ion-icon></label>
+                <input type="email"  required name="email" id="email" placeholder="seu e-mail">
+                <textarea name="leave-msg" id="msg" cols="30" rows="10" placeholder="deixe sua mensagem"></textarea>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+        <footer>10/04/23 <a href="https://www.github.com/oArielNunes" target="
+            ">Ariel Nunes de Azevedo</a> 5833063818 Análise e Desenvolvimento de Sistemas</footer>
+    </div>
+    </div>
+    <script  type="module"  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
